@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    background-color: #191721;
+    color: white;
+    min-height: calc(100vh - 90px);
+}
+.left{
+    width: 20%;
+    border-right: 1px solid #746f89;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+
+}
+.posf{
+    position: fixed;
+}
+.right{
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+.h1news:hover{
+    background-color: #252230;
+}
+.h1place:hover{
+    background-color: #252230;
+}
+.h1news{
+    padding: 10px;
+    cursor: pointer;
+}
+.h1place{
+    padding: 10px;
+    cursor: pointer;
+}
+.newsitem{
+    width: 400px;
+    height: 300px;
+  background-color: #252230;
+  margin-top: 50px;
+  margin-left: 45px;
+  border-radius: 20px;
+  padding: 35px;
+  color: whitesmoke;
+  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+
+}
+.placeitem{
+  width: 250px;
+    height: 260px;
+  background-color: #252230;
+  margin-top: 50px;
+  margin-left: 45px;
+  border-radius: 20px;
+  padding: 35px;
+  color: whitesmoke;
+  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.57);
+}
+.poster{
+    display: inline;
+    margin-left: 10px;
+  }
+  .date{
+    position: relative;
+    top: -35px;
+    left: 61px;
+    color: rgb(134, 131, 139);
+  }
+  .head{
+    margin-left: 10px;
+    margin-bottom: -35px;
+    
+  }
+  .descr{
+    font-size: x-large;
+    position: relative;
+    height: 100px;
+    overflow: auto;
+  }
+  .title{
+    position: relative;
+    font-size: x-large;
+    margin-bottom: -15px;
+  }
+  .accept{
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .delete{
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }

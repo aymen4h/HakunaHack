@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+#h1in{
+    color: red;
+    text-align: center;
+    
+}
+.we{
+    margin: 0;
+    padding: 0;
+    background: #212028;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  
+}
+.index{
+    width: 450px;
+    height: 450px;
+    background: #fff;
+}
+
+.up{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 225px;
+
+
+    animation-name: none;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+.in{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    animation-name: none;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#h2up, #h2in{
+    text-decoration: underline;
+    color: rgb(105, 105, 253);
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+#btnUp, #btnIn{
+    font-size: 20px;
+}
+#mainSign{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.76);
+    box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.76);
+}
+
+.comment{
+    
+    width: 50%;
+    height: 100%;
+    background: rgb(74, 74, 255);
+    position: absolute;
+    margin-left: 225px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+
+    animation-name: none;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+button[value="in"], button[value="up"]{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#iduserIn, #passwordIn, #iduserUp, #passwordUp, #confirmpasswordUp{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #cacaca;
+    padding: 10px;
+    font-weight: 14px;
+    border-radius: 20px;
+}
+.formsign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #edeef0;
+    border-radius: 0 0 30px 30px;
+    width: 100%;
+    height: 75%;
+}
+.updata{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+.indata{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+#file{
+    width: 180px;
+}
+#logo{
+    border-radius: 50%;
+}
+
+@keyframes frame1{
+    from {
+        margin-left: 225px;
+        
+    }
+    to {
+        margin-left: 0;
+        
+    }
+}
+@keyframes frame3{
+    from {
+        margin-left: 0;
+        
+    }
+    to {
+        margin-left: 225px;
+        
+    }
+}
+@keyframes framein1{
+    0% {
+        margin-left: 0;
+        display: flex;
+    }
+    50%{
+        display: none;
+    }
+    100% {
+        margin-left: 225px;
+        display: none;
+        
+    }
+}
+@keyframes framein2{
+    0% {
+        margin-left: 225px;
+        display: none;
+    }
+    50%{
+        display: flex;
+    }
+    100% {
+        margin-left: 0;
+        display: flex;
+        
+    }
+}
+@keyframes frameup1{
+    0% {
+        margin-left: 0;
+        display: none;
+        
+    }
+    50%{
+        display: flex;
+    }
+    100% {
+        margin-left: 225px;
+        display: flex;
+        
+    }
+}
+@keyframes frameup2{
+    0% {
+        margin-left: 225px;
+        display: flex;
+    }
+    50%{
+        display: none;
+    }
+    100% {
+        margin-left: 0;
+        display: none;
+        
+    }
+}
+

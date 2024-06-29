@@ -1,0 +1,52 @@
+.place{
+    position: absolute;
+
+}
+.inputC{
+    padding: 12px;
+    border: 1px solid #746f89;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.btncreate{
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    
+}
+#create{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+#imgMap{
+    width: calc(100vh + 20px);
+    height: calc(100vh - 90px);
+}
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #191721;
+    height: calc(100vh - 90px);
+}
+.des{
+    color: black;
+    position: relative;
+    background-color: #e04b4b;
+    padding: 10px;
+    border-radius: 10px;
+    top: -20px;
+}
